@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Side Navigation */
+  .sidenav {
+    height: 100%;
+    width: 20%; /* Set the width to 25% (adjust as needed) */
+    background-color: #006666; /* Updated color */
+    position: fixed;
+    /* overflow-y: scroll; */
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+  }
+  
+  .sidenav a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  /* Main Content */
+  .main {
+    margin-left: 25%; /* Adjust this value based on the width of the side navigation */
+    padding: 20px;
+  }
+  
+  h2 {
+    font-weight: lighter; /* Adjust the weight as needed */
+    border-bottom: 1px solid #ddd; /* Adjust the color and style as needed */
+    padding-bottom: 10px; /* Add space between text and line */
+    margin-bottom: 20px; /* Add space between h2 and subsequent content */
+  }
+
+  .projectTitle{
+    font-weight: bold;
+  }
+
+  /* .Role{
+    font-weight: bold;
+  } */
+
+  .Company{
+    font-weight: bold;
+    color: #2c9393;
+  }
+
+/* .DurationLocation{
+    
+} */
+
+.courseName{
+    font-weight: bold;
+}
+
+.schoolName{
+    font-weight: bold;
+    color: #2c9393;
+}
+
+  .CompanyRole {
+    flex: 1;
+  }
+
+  .DurationLocation {
+    flex: 1;
+    text-align: right; /* Align the text to the right */
+    color: grey;
+  }
+
+  .Role {
+    font-weight: bold;
+  }
+
+  .specializationsDescription{
+    color: grey;
+  }
+
+  .ProjectDescription{
+    color: grey;
+  }
+  .RoleResponsibilities{
+    color: grey;
+  }
+
+  .marks{
+    color: grey;
+  }
+
+  .topHeaderTitle{
+    color: #2c9393;
+  }
+
+  .skillsSection{
+    padding-left: 20px; /* Set left padding as needed */
+    padding-right: 20px; /* Set right padding as needed */
+    color: white;
+  }
+
+  .skills-container {
+    display: flex;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .skill-icon {
+    width: 50px; /* Adjust icon size as needed */
+    height: 50px;
+    margin-right: 10px; /* Add space between icon and dots */
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center dots vertically */
+    margin: 10px 0;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd; /* Default dot color */
+    margin: 0 3px;
+  }
+  
+  .filled {
+    background-color: #ddd; /* Filled dot color */
+  }
+
+  .skillName{
+    padding-right: 20px;
+    color: white;
+  }
+
+  .skillImg{
+    display: block;
+    margin-left: auto; 
+  }
+  .projectTitle{
+    color: #006666;
+  }
